@@ -1,0 +1,19 @@
+{
+  "name": "dev.tracking.lv",
+  "version": "1.0.0",
+  "description": "dev.tracking.lv",
+  "repository": "",
+  "license": "MIT",
+  "dependencies": {
+    "gulp-rename": "*",
+    "gulp-uglify": "*",
+    "gulp-clean-css": "*"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.7.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^3.0.0",
+    "less": "^2.7.3",
+  }
+}
