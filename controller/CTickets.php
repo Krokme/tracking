@@ -49,7 +49,7 @@ class CTickets extends Base
                 $row['priority'] = 'Hight';
             }
             if ($row['status'] == 0) {
-                $row['status'] = 'In progress';
+                $row['status'] = 'Open';
             } else {
                 $row['status'] = 'Finished';
             }
