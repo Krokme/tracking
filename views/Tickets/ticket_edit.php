@@ -32,7 +32,7 @@
         <div class="form-group">
             <label for="status">Status</label>
             <select name="status" id="status" class="form-control">
-                <option value="0"<?php echo $this->App->request->get('status') == '0' ? ' selected' : ''; ?>>In progress</option>
+                <option value="0"<?php echo $this->App->request->get('status') == '0' ? ' selected' : ''; ?>>Open</option>
                 <option value="1"<?php echo $this->App->request->get('status') == '1' ? ' selected' : ''; ?>>Finished</option>
             </select>
         </div>
